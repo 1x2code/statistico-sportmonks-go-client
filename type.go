@@ -381,8 +381,8 @@ type (
 
 	// TeamLeagueTotalStats provides league stat data for a team.
 	TeamLeagueTotalStats struct {
-		GoalDifference int `json:"goal_difference"`
-		Points         int `json:"points"`
+		GoalDifference string `json:"goal_difference"`
+		Points         string `json:"points"`
 	}
 
 	// TeamSeasonStats provides in depth league data for a team.
