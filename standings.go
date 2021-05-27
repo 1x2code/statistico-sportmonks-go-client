@@ -34,7 +34,7 @@ type LeagueStanding struct {
 	RoundID    int                  `json:"round_id"`
 	RoundName  int                  `json:"round_name"`
 	GroupID    *int                 `json:"group_id"`
-	GroupName  *int                 `json:"group_name"`
+	GroupName  *string              `json:"group_name"`
 	Overall    TeamLeagueStats      `json:"overall"`
 	Home       TeamLeagueStats      `json:"home"`
 	Away       TeamLeagueStats      `json:"away"`
